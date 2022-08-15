@@ -42,7 +42,7 @@ def test():
     return {"message":20}
 
 @app.route('/getTest', methods=['GET'])
-def test():
+def getTest():
     return {"get":3030}
 
 if __name__ == '__main__':
